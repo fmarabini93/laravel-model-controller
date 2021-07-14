@@ -1,1 +1,22 @@
-//
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import 'partials/header';
+@import 'partials/card';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1600px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    color: rgba(228, 110, 0, 0.719);
+    background-image: linear-gradient(to top right, #fefbd8, #f4e1d2);
+}

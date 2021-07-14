@@ -1,0 +1,14 @@
+.card {
+    width: calc(100% / 5 - 40px);
+    margin: 20px;
+    box-shadow: 2px 2px 10px 2px #5f5f5f;
+
+    ul {
+        list-style: none;
+
+        li {
+            display: block;
+            margin: 20px 0;
+        }
+    }
+}

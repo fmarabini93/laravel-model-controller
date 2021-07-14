@@ -4,9 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Laravel Movies</title>
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <title>{{$title}}</title>
     </head>
     <body>
-        
+        @include('partials.header')
+        @foreach ($movies as $movie)
+            @include('partials.card')
+        @endforeach
     </body>
 </html>
