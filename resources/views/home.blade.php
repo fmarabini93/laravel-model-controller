@@ -12,5 +12,6 @@
         @foreach ($movies as $movie)
             @include('partials.card')
         @endforeach
+        
     </body>
 </html>
